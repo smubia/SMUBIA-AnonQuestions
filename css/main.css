@@ -1,0 +1,50 @@
+.jumbotron {
+    padding: 3rem 4rem;
+    margin-bottom: 1rem;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 1rem;
+}
+
+html {
+    background-color: #eceeef;
+}
+
+.container {
+    background-color: #eceeef;
+}
+
+
+/*******************************
+CSS of Items
+*******************************/
+
+.question-author {
+    text-align: right;
+    font-size: 2rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: italic;
+}
+
+.question-question {
+    font-size: 3rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+
+.top-title {
+    text-align: right;
+    color: #fff;
+    margin-top: 25px;
+}
+
+.top-title-1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.top-title-2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2rem;
+    text-decoration: underline;
+}
