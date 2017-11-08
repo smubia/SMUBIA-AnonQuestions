@@ -18,6 +18,7 @@ function retrieveData() {
         url: 'https://script.googleusercontent.com/macros/echo?user_content_key=z7Hxt6g9A7tSUb491Ba6hMBhmH0s2x65iaYDsMefVUywUQk101mJltypij8Hod3M2zfYGu6XRIRZGbxeJQ9uKlW2a_3S56xVOJmA1Yb3SEsKFZqtv3DaNYcMrmhZHmUMWojr9NvTBuBLhyHCd5hHa1ZsYSbt7G4nMhEEDL32U4DxjO7V7yvmJPXJTBuCiTGh3rUPjpYM_V0PJJG7TIaKp3XF0WiKi9pRXPegTztZoXor_fmWoFrK03McpLC-Yc_t0IigV6-Q88rZb0g9VPokC8gJ3ttE15maGKla4NPWI_U&lib=MbpKbbfePtAVndrs259dhPT7ROjQYJ8yx',
         success: function (responseText) {
             var data = responseText.Responses
+            console.log(data)
             
             //reset namelist and questionlist
             nameList = [];
